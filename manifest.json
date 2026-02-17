@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Imgur Proxy",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Redirects Imgur links to DuckDuckGo's image proxy.",
   "permissions": [],
   "host_permissions": [
