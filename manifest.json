@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Imgur Proxy",
+  "version": "1.0",
+  "description": "Redirects Imgur links to DuckDuckGo's image proxy.",
+  "permissions": [],
+  "host_permissions": [
+    "*://*.imgur.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "action": {
+    "default_title": "Imgur Proxy Replacer Enabled"
+  }
+}
